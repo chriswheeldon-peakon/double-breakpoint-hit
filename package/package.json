@@ -1,0 +1,13 @@
+{
+  "name": "subpackage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "author": "",
+  "license": "ISC",
+  "packages": [
+    "package"
+  ]
+}

@@ -2,14 +2,9 @@
   "name": "double-breakpoint-hit",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "build": "npm run --workspaces --if-exists build"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
-  "workspaces": [
-    "package"
-  ],
   "devDependencies": {
     "@types/jest": "^29.5.3",
     "jest": "^29.6.1",

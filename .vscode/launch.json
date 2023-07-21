@@ -8,14 +8,10 @@
       "name": "Debug Jest Tests",
       "type": "node",
       "request": "launch",
-      "runtimeArgs": [
-        "--inspect-brk",
-        "${workspaceRoot}/node_modules/.bin/jest",
-        "--runInBand"
-      ],
+      "runtimeArgs": ["${workspaceRoot}/node_modules/.bin/jest", "--runInBand"],
       "console": "integratedTerminal",
       "outputCapture": "std",
-      "cwd": "${workspaceFolder}/package"
+      "trace": true
     }
   ]
 }

@@ -1,4 +1,4 @@
-# vscode + ts-jest + project references + ? ... double breakpoint issue
+# vscode + ts-jest incorrect breakpoint location mapping
 
 To reproduce (on node v18.16.1 with VSCode 1.80.1):
 

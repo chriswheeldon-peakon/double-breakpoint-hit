@@ -13,6 +13,6 @@ VSCode seems to find two possible breakpoint locations:
 
 ```json
 {"tag":"dap.receive","timestamp":1689973389721,"metadata":{"connectionId":9,"message":{"command":"breakpointLocations","arguments":{"source":{"name":"package/src/add.ts","path":"###REDACTED###/package/src/add.ts","sourceReference":0,"origin":"Skipped by smartStep"},"line":2},"type":"request","seq":19}},"level":0}
-...
+
 {"tag":"dap.send","timestamp":1689973389722,"metadata":{"connectionId":9,"message":{"seq":1134,"type":"response","request_seq":19,"command":"breakpointLocations","success":true,"body":{"breakpoints":[{"line":2,"column":3},{"line":2,"column":16}]}}},"level":0}
 ```

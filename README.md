@@ -1,6 +1,6 @@
-# vscode + ts-jest + project references double breakpoint issue
+# vscode + ts-jest + project references + ? ... double breakpoint issue
 
-To reproduce:
+To reproduce (on node v18.16.1 with VSCode 1.80.1):
 
 1. npm i
 2. Set a vscode breakpoint on [package/src/add.ts#2](package/src/add.ts#L2).
